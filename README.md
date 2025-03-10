@@ -1,6 +1,6 @@
-# Combination of spectrogram representations and hand-crafted features in convolutional networks for natural sound classification
+# Enhancing Sound-Based Classification of Birds and Anurans with Spectrogram Representations and Acoustic Indices in Neural Network Architectures
 
-This repo contains a code implementation of the input combinations proposed by a [paper](https://) submitted to [IEEE/ACM Transactions on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieeeacm-transactions-audio-speech-and-language-processing). It combines spectrogram representations and other features to train models to classify [natural sounds](https://doi.org/10.1007/s10980-011-9600-8) of birds and anurans species.
+This repo contains a code implementation of the input combinations proposed by a [paper](https://) submitted to [Ecological Informatics](https://www.sciencedirect.com/journal/ecological-informatics). It combines spectrogram representations and other features to train models to classify [natural sounds](https://doi.org/10.1007/s10980-011-9600-8) of birds and anurans species.
 
 ## Prerequisites
 
@@ -80,13 +80,16 @@ Besides, you can use a ground truth to evaluate the models. Put a CSV file with 
 
 ## Data used
 
-The complete database has been collected by the [LEEC lab](https://github.com/LEEClab) and subsets were used in other papers, such as [[1]](https://doi.org/10.1016/j.ecolind.2020.107050), [[2]](https://doi.org/10.1016/j.ecolind.2020.107316), and [[3]](https://doi.org/10.3390/info12070265). Our subset is labeled with animal species and will be available on the [lab website](https://github.com/LEEClab) as soon as possible.
+We ran experiments with two datasets.
+The **main dataset** is a subset of a database collected by the [LEEC lab](https://github.com/LEEClab) and other subsets were used in other papers, such as [[1]](https://doi.org/10.1016/j.ecolind.2020.107050), [[2]](https://doi.org/10.1016/j.ecolind.2020.107316), [[3]](https://doi.org/10.3390/info12070265), and [[4]](https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2023.1283719/full). 
+Our subset is labeled with animal species and will be available on the [lab website](https://github.com/LEEClab) as soon as possible.
+The **additional dataset** is a subset of the [DCASE 2024](https://dcase.community/challenge2024/task-few-shot-bioacoustic-event-detection).
 We also used samples from the [Google Audioset](http://research.google.com/audioset/download.html)
 
 ## Contact
 
-* [Fábio Felix Dias](https://scholar.google.com.br/citations?hl=pt-BR&user=uQ_qg2MAAAAJ) - e-mail: <ffd2011@nyu.edu>
+* [Fábio F. Dias](https://scholar.google.com.br/citations?hl=pt-BR&user=uQ_qg2MAAAAJ) - e-mail: <ffd2011@nyu.edu>
 
-* [Moacir Antonelli Ponti](https://scholar.google.com.br/citations?user=ZxQDyNcAAAAJ&hl=pt-BR&oi=sra) - e-mail: <moacir@icmc.usp.br>
+* [Moacir A. Ponti](https://scholar.google.com.br/citations?user=ZxQDyNcAAAAJ&hl=pt-BR&oi=sra) - e-mail: <moacir@icmc.usp.br>
 
 * [Rosane Minghim](https://scholar.google.com.br/citations?user=TodwpSwAAAAJ&hl=pt-BR&oi=ao) - e-mail: <rosane.minghim@ucc.ie>  
