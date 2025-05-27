@@ -155,28 +155,3 @@ def main(*args):
 if __name__ == '__main__':
   main(*sys.argv[1:])  
 
-# PYTHONHASHSEED=1030 python main.py 
-# -a train
-# -s /home/sounddb/RioClaro_40000/amostra_12tags/amostra_audioset/amostra_completa/spec/mel_44k 
-# -m 0 
-# -l 15 
-
-# -t /home/fabio/Documents/Pesquisa/Experimentos/resultados/RioClaro/novas_tags/amostra_12tags/amostra_audioset//amostra_completa/redes/44k/r50_mel/seed/1030/ 
-# -comb 0
-# -hc /home/sounddb/RioClaro_40000/amostra_12tags/amostra_audioset/amostra_completa/indices/44k/comb
-# -aux 44k mel_44k pcen_44k
-# -b 80 
-# -e 100 
-# -quant
-# -eval
-
-
-# PYTHONHASHSEED=1030 python main.py -l 15 -s /home/sounddb/RioClaro_40000/amostra_12tags/amostra_audioset/amostra_completa/spec/mel_44k -t /home/fabio/Documents/Pesquisa/Experimentos/resultados/RioClaro/novas_tags/amostra_12tags/INPUTS/teste/ -a train -m 0 
-
-# PYTHONHASHSEED=1030 python main.py -l 15 -s /home/sounddb/RioClaro_40000/amostra_12tags/amostra_audioset/amostra_completa/spec/mel_44k/ -t /home/fabio/Documents/Pesquisa/Experimentos/resultados/RioClaro/novas_tags/amostra_12tags/INPUTS/teste/ -a apply -m 2 -b 30 -comb 1 -hc /home/sounddb/RioClaro_40000/amostra_12tags/amostra_audioset/amostra_completa/indices/44k/comb
-
-# PYTHONHASHSEED=1030 python main.py -l 15 -s /home/sounddb/RioClaro_40000/amostra_12tags/amostra_audioset/amostra_completa/spec/ -aux 44k mel_44k pcen_44k  -t /home/fabio/Documents/Pesquisa/Experimentos/resultados/RioClaro/novas_tags/amostra_12tags/INPUTS/teste/ -a apply -m 0 -b 80 -comb 10 
-
-# PYTHONHASHSEED=1030 python teste16_v2.py -f 44100 -t 60 -c 3 -lt 1 -e 100 -aug 580 -seed 1030 -rs 0 -l 15 -m 18 -b 30 -kfold 5 -p /home/sounddb/RioClaro_40000/amostra_12tags/amostra_audioset/amostra_completa/spec/mel_44k/ -o /home/fabio/Documents/Pesquisa/Experimentos/resultados/RioClaro/novas_tags/amostra_12tags/INPUTS/teste/ -as -a train
-
-# PYTHONHASHSEED=1030 python main.py -l 15 -s /home/sounddb/RioClaro_40000/amostra_12tags/amostra_audioset/amostra_completa/spec/ -aux 44k mel_44k pcen_44k  -t /home/fabio/Documents/Pesquisa/Experimentos/resultados/RioClaro/novas_tags/amostra_12tags/INPUTS/teste/ -hc /home/sounddb/RioClaro_40000/amostra_12tags/amostra_audioset/amostra_completa/indices/44k/comb -a train -m 0 -b 80 -comb 22
