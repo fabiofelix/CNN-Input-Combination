@@ -1,6 +1,6 @@
-# Enhancing Sound-Based Classification of Birds and Anurans with Spectrogram Representations and Acoustic Indices in Neural Network Architectures
+# Enhancing sound-based classification of birds and anurans with spectrogram representations and acoustic indices in neural network architectures
 
-This repo contains a code implementation of the input combinations proposed by a [paper](https://) submitted to [Ecological Informatics](https://www.sciencedirect.com/journal/ecological-informatics). It combines spectrogram representations and other features to train models to classify [natural sounds](https://doi.org/10.1007/s10980-011-9600-8) of birds and anurans species.
+This repo contains a code implementation of the input combinations proposed by a [paper](https://doi.org/10.1016/j.ecoinf.2025.103232) accepted on [Ecological Informatics](https://www.sciencedirect.com/journal/ecological-informatics). It combines spectrogram representations and other features to train models to classify [natural sounds](https://doi.org/10.1007/s10980-011-9600-8) of birds and anurans species.
 
 ## Prerequisites
 
@@ -83,7 +83,7 @@ Besides, you can use a ground truth to evaluate the models. Put a CSV file with 
 We ran experiments with two datasets.
 The **main dataset** is a subset of a database collected by the [LEEC lab](https://github.com/LEEClab) and other subsets were used in other papers, such as [[1]](https://doi.org/10.1016/j.ecolind.2020.107050), [[2]](https://doi.org/10.1016/j.ecolind.2020.107316), [[3]](https://doi.org/10.3390/info12070265), and [[4]](https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2023.1283719/full). 
 Our subset is labeled with animal species and will be available on the [lab website](https://github.com/LEEClab) as soon as possible.
-The **additional dataset** is a subset of the [DCASE 2024](https://dcase.community/challenge2024/task-few-shot-bioacoustic-event-detection).
+The **additional dataset** is a subset of Task 5 proposed by the [DCASE 2024](https://dcase.community/challenge2024/task-few-shot-bioacoustic-event-detection).
 We also used samples from the [Google Audioset](http://research.google.com/audioset/download.html)
 
 ## Contact
